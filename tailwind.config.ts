@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "mini-game": "url('/public/mini-game.png')",
-        "play-btn": "url('/public/play-btn.png')",
-        "coins": "url('/public/coins.png')",
+        "mini-game": "url('/mini-game.png')",
+        "play-btn": "url('/play-btn.png')",
+        "coins": "url('/coins.png')",
       },
     },
   },
