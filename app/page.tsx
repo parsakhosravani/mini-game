@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="min-h-screen relative">
       <Image
-        src="/mini-game.png"
+        src="/mini-game.svg"
         alt="Mini Game Background"
         layout="fill"
         objectFit="contain"
@@ -22,7 +22,7 @@ export default function Home() {
         onClick={redirect}
       />
       <div
-        className="bg-[#fd3c96] w-1/4 h-1/4 blur-3xl animate-pulse absolute"
+        className="bg-[#fd3c96] w-1/6 h-1/4 blur-3xl animate-pulse absolute"
         popover="auto"
         id="mini-game-popover"
       >
